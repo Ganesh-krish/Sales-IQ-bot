@@ -7,11 +7,14 @@
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/lawyarname.css">
     <link rel="stylesheet" href="assets/css/footer.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <nav>
         <div class="logo">
-            <div class="logo-text">GK</div>
+            <div class="logo-text">
+                <img src="assets/img/logo.webp" alt="logo for law" loading="lazy">
+            </div>
         </div>
         <button class="menu-btn" aria-label="menu button">☰</button>
         <div class="nav-links">
@@ -30,7 +33,7 @@
             <div class="menu-item">
                 <a href="index.html">JusticeTrio</a>
                 <div class="submenu">
-                    <a href="justice.html">JusticeTrio</a>
+                    <a href="lawyer.html">Lawyar</a>
                     <a href="Advocates.html">Advocates</a>
                     <a href="Judges.html">Judges</a>
                 </div>
@@ -87,41 +90,61 @@
         <div class="right-content">
             <h2>Faqs</h2>
             <div class="accordion">
-                <button class="accordion-item">
+                <button class="accordion-item" aria-label="1st question">
                     Section 1
                 </button>
                 <div class="accordion-content">
                     <p>This is section 1 content.</p>
                 </div>
         
-                <button class="accordion-item">
+                <button class="accordion-item" aria-label="2nd question">
                     Section 2
                 </button>
                 <div class="accordion-content">
                     <p>This is section 2 content.</p>
                 </div>
         
-                <button class="accordion-item">
+                <button class="accordion-item" aria-label="3rd question">
                     Section 3
                 </button>
                 <div class="accordion-content">
                     <p>This is section 3 content.</p>
                 </div>
 
-                <button class="accordion-item">
+                <button class="accordion-item" aria-label="4th question">
                     Section 4
                 </button>
                 <div class="accordion-content">
                     <p>This is section 4 content.</p>
                 </div>
 
-                <button class="accordion-item">
+                <button class="accordion-item" aria-label="5th question">
                     Section 5
                 </button>
                 <div class="accordion-content">
                     <p>This is section 5 content.</p>
                 </div>
             </div>
+            <div class="icon">
+                <span>Connect with us on</span>
+                <a href="" class="whatsapp-icon">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="" class="instagram-icon">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="" class="twitter-icon">
+                    <i class="fab fa-twitter"></i> Twitter
+                </a>
+                <a href="" class="facebook-icon">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a href="" class="linkedin-icon">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+            </div>
+            
+            
         </div>
     </div>
     <footer class="footer">
@@ -151,15 +174,12 @@
                     </a>
                 </div>
             </div>
-            <div class="copyright">
-                Copyright ©2024 <a href="https://thriveboost.netlify.app/">Thrive Boost</a>. All Rights Reserved
-            </div>
         </div>
         <a href="#top" class="scroll-top">
             ↑
         </a>
     </footer>
-
+<script src="assets/js/index.js"></script>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const accordionItems = document.querySelectorAll('.accordion-item');
